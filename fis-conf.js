@@ -1,4 +1,4 @@
-fis.config.set('project.exclude', /^\/\.idea\//i);
+fis.config.set('project.exclude', [".gitignore",".git/**",/^\/\.idea\//i]);
 fis.config.set('roadmap.path', [
     {
         reg : '**.jsp' //jsp文件不调整部署结构
