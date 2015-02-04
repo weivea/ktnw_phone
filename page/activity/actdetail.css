@@ -1,0 +1,28 @@
+body{font-size: 85%;}
+.activity .title{font-size: 1.3rem; line-height: 2.5rem;}
+.activity .info{width: 100%;margin-top: 0.5rem;}
+.activity .info tr {height: 2rem;}
+.activity .info {color: #747474;}
+.activity .info td.price{color: orangered;}
+.activity .desc p{line-height: 1.5;color: #747474;}
+.activity .desc p span{color: #000;}
+.activity .operate-btn{padding: 0.5rem 0;}
+.activity .operate-btn a{background-color: #d15c44;border-radius: 0.2rem;color: #ffffff;padding: 0.7rem 1.5rem;font-size: 1rem;}
+.activity .operate-btn a.collect-btn{background-color: #e5b55b;margin-left: 0.5rem;}
+.intro-list{padding: 10px 1%;}
+.intro-list li h2{color: #717070;padding: 0 1% 10px;font-size: 1rem;font-weight: normal;}
+.intro-list li .box img{width: 25%;height: auto;vertical-align: middle;border-radius: 100%;}
+.intro-list li .box .desc{width: 73%;vertical-align: middle;line-height: 1.4;}
+
+.intro-list .class-plan table{width: 100%;border:solid #ffffff; border-width:1px 0;}
+.intro-list .class-plan table th{width: 25%;text-align: center;color: #ff7335;font-weight: bold;background-color: #ffe3d1;padding: 10px;border:solid #ffffff; border-width:0px 1px 1px 0px;}
+.intro-list .class-plan table td{width: 25%;text-align: center;padding: 5px;color: #ff7335;background-color: #fff7f1;border:solid #ffffff; border-width:0px 1px 1px 0px;}
+.intro-list .class-detail img{max-width: 100%;}
+.dash-line{border-bottom: 1px dashed #aaa;margin: 0.5rem 0;}
+
+.recommend{background-color: #ffffff;border-radius: 0.4rem;overflow: hidden}
+.recommend div{ background-color: #dedede;padding: 0 0.5rem;}
+.recommend div h2{font-size: 0.95rem;line-height: 2rem;}
+.recommend div a{line-height: 2rem;}
+.recommend ul li{font-size: 0.9rem;line-height: 2rem;border-bottom: 1px dashed #ddd;padding: 0 0.5rem}
+.recommend ul li:last-child{border-bottom:0px;}

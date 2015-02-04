@@ -1,0 +1,34 @@
+.grid-userinfo{padding: 0}
+
+.fa-bolt{color: orangered;vertical-align: middle; font-size: 1.2rem;margin: 0 0 0 0.3rem; display: none;}
+
+.user-head{width: 100%;position: relative;}
+.user-head .head-bg{width: 100%;}
+.user-head .info-box{
+    width: 100%;height: 100%;position: absolute;top: 0;left: 0;color: #ffffff;text-align: center;font-size: 0.9rem;
+}
+.user-head .info-box img{max-width: 4rem; max-height: 4rem; width: 15%; border-radius: 100%; margin: 0.5rem;}
+.user-head .info-box .change-head{position: absolute; right: 0.5rem;bottom: 0.5rem;}
+.btn-link{text-align: center;display: flex; display: -webkit-box; flex-flow: row;font-size: 1rem;line-height: 1.4;}
+.btn-link .collect-class{flex: 1;-webkit-box-flex: 1;border-right: 1px solid #aaa;padding: 0.3rem 0;border-bottom: 1px solid #aaa;}
+.btn-link .collect-match{flex: 1;-webkit-box-flex: 1;padding: 0.3rem 0;border-bottom: 1px solid #aaa;}
+.re-set, .user-info{padding: 0.5rem 0.5rem;}
+.re-set li, .user-info li{line-height: 2;font-size: 1rem;}
+
+.re-set li .account-w{color: #8e8e8e;max-width: 45%;}
+.re-set li span, .user-info li span, .user-info li input, .user-info li select{display: inline-block;vertical-align: middle;}
+.re-set li a{text-decoration: underline;}
+.re-set li .custom-letter, .user-info li .custom-letter{letter-spacing: 0.4rem;}
+
+.info-warp{border-top: 1px dashed #aaa;}
+.user-info li input[type='text'], .user-info li input[type='number'], .user-info li input[type='email'], select.form-control{margin: 0.5rem 0; max-width: 16rem; width: 73.6%;}
+.user-info li input[type='text'].short, .user-info li input[type='number'].short, .user-info li input[type='email'].short, select.form-control.short{ width: 68%;}
+.user-info li.select{font-size: 0;}
+.user-info li .account-w{color: #8e8e8e;}
+.user-info li.select span{font-size: 1rem;}
+.user-info li.place-info{line-height:1.2;}
+.user-info li.place-info input[type='text']{max-width: 21rem;width: 100%;}
+.user-info li.place-info input[type='text'].short{width: 95%;}
+.edit-info-btn{text-align: center; margin: 0.5rem;font-size: 0.9rem;}
+.save-info-btn{text-align: center; margin: 0.5rem;max-width: 21rem;font-size: 0.9rem;}
+.save-info-btn .btn{width: 50%;}

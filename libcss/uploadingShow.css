@@ -1,0 +1,39 @@
+#uploading-bg{position: fixed;width: 100%;height: 100%;z-index: 100;top: 0;left: 0;background: rgba(0,0,0,0.5);display: none;}
+#uploading-line{position: absolute;top: 50%;left: 50%;margin-left: -200px;margin-top: -15px;width: 400px;height: 30px;border: 1px solid #ffffff;
+    /*background-color: #5cb85c;*/
+    background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+    -webkit-background-size: 30px 30px;
+    background-size: 40px 40px;
+    overflow: hidden;
+}
+#uploading-item{width: 440px;height: 100%;top: 0;
+    background-color: #5cb85c;
+    position: absolute;
+    background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+    -webkit-background-size: 30px 30px;
+    background-size: 40px 40px;
+    -moz-animation: myfirst 2s linear 0s infinite;
+    -webkit-animation: myfirst 2s linear 0s infinite;
+    -o-animation: myfirst 2s linear 0s infinite;
+    animation: myfirst 2s linear 0s infinite;
+}
+@keyframes myfirst
+{
+    from {left:-40px;}
+    to {left:0px;}
+}
+@-moz-keyframes myfirst
+{
+    from {left:-40px;}
+    to {left:0px;}
+}
+@-webkit-keyframes myfirst
+{
+    from {left:-40px;}
+    to {left:0px;}
+}
+@-o-keyframes myfirst
+{
+    from {left:-40px;}
+    to {left:0px;}
+}

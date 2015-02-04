@@ -1,0 +1,5 @@
+.body-box img{width: 63%;}
+.body-box .desc{width: 35%;margin-left: 2%;line-height: 1.3;}
+.body-box li{margin-bottom: 0.5rem;}
+.body-box .desc p{color: #6e6e6e;line-height: 1.2;}
+.load-more{background-color: #eee; border: 1px solid #ccc;padding: 0.5rem;font-size: 0.9rem;text-align: center; margin: 1rem 0;border-radius: 0.3rem;color: #767676;}
